@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "name": "adopt_a_pet",
+  "description": "A React learning project. \r Something simple to help understand the way React interacts with components and hooks in order to create a slick UI for adopting a pet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AamirKhanDev/adopt_a_pet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AamirKhanDev/adopt_a_pet/issues"
+  },
+  "homepage": "https://github.com/AamirKhanDev/adopt_a_pet#readme"
 }
