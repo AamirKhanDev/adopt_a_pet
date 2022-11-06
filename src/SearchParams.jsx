@@ -1,5 +1,5 @@
 const SearchParams = () => {
-  const location = "Seattle, WA";
+  const location = "London, UK";
   return (
     <div className = "search-params">
       <form>
