@@ -36,6 +36,7 @@ const SearchParams = () => {
         <label htmlFor = "breed">
           Breed
           <select id ="breed"
+          disabled = {breeds.length === 0}
           value = {breed}
           onChange = {e => setBreed (e.target.value)}
           >
