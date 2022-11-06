@@ -1,6 +1,6 @@
 import { useState } from 'react';
 const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
-
+const breeds = [] //placeholder for API fetch
 
 
 const SearchParams = () => {
@@ -29,6 +29,19 @@ const SearchParams = () => {
             <option />
             {ANIMALS.map(animal => (
               <option key = {animal}> {animal} </option>
+            ))}
+          </select>
+        </label>
+
+        <label htmlFor = "breed">
+          Breed
+          <select id ="breed"
+          value = {breed}
+          onChange = {e => setBreed (e.target.value)}
+          >
+            <option />
+            {breeds.map(breed => (
+              <option key = {breed}> {breed} </option>
             ))}
           </select>
         </label>
