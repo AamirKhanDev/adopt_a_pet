@@ -6,7 +6,9 @@
   "description": "A React learning project. \r Something simple to help understand the way React interacts with components and hooks in order to create a slick UI for adopting a pet",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "2.7.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
