@@ -8,7 +8,7 @@ const SearchParams = () => {
   const [location, setLocation] = useState("");
   const [animal, setAnimal] = useState("");
   const [breed, setBreed] = useState("");
-  const [pets, setPets] = useState("");
+  const [pets, setPets] = useState([]);
   const breeds = []; //placeholder for API fetch
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const SearchParams = () => {
 
   async function requestPets() {
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/petsanimal=${animal}&location=${location}&breed=${breed}?`
+      `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
     );
     const json = await res.json();
 
