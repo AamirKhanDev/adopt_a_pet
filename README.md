@@ -14,4 +14,6 @@ Something simple to help understand the way React interacts with components and 
 - Javascript
 - React
 - Vite
+- HTML
+- CSS
 
