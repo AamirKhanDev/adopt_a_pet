@@ -16,7 +16,7 @@ const SearchParams = () => {
   useEffect(() => {
     requestPets();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, []); //empty array to only allow searching once
 
 
 //async function calling API
