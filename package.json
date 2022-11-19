@@ -2,7 +2,7 @@
   "name": "adopt_a_pet",
   "description": "A React learning project. \r Something simple to help understand the way React interacts with components and hooks in order to create a slick UI for adopting a pet",
   "version": "1.0.0",
-   "main": "index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.4.3"
   }
 }
