@@ -17,3 +17,4 @@ Something simple to help understand the way React interacts with components and 
 - HTML
 - CSS
 
+![portfolio-02](https://user-images.githubusercontent.com/63204104/209416850-dd81e077-60ae-41c7-b91f-b68eb626b606.png)
